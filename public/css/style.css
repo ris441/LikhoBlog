@@ -1,0 +1,251 @@
+
+html {
+  height: 100%;
+}
+.bg-black{
+  background-color: black;
+}
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.full-width{
+  width: 100%;
+  height:max-content;
+}
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footer {
+  background-color: #c3bcbc;
+  
+  margin-top: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* This will ensure that the footer always stays at the bottom of the page */
+@media screen and (min-height: 600px) {
+  body {
+    flex: 1;
+  }
+}
+
+.bg-color{
+    background-color: #242322;
+
+
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(187, 150, 28)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(187, 150, 28);
+  } 
+  .text-color{
+    color: rgb(187, 150, 28);
+  }
+
+
+
+ 
+  /* About page */
+  /* .box{
+    width: 40rem;
+    margin-left: 8rem;
+    margin-top: 20px;
+  } */
+  /* usesr page  */
+  /*----  Main Style  ----*/
+#cards_landscape_wrap-2{
+  text-align: center;
+  background: #F7F7F7;
+}
+#cards_landscape_wrap-2 .container{
+  padding-top: 10px; 
+  padding-bottom: 100px;
+}
+#cards_landscape_wrap-2 .row{
+  padding-top: 10px; 
+  padding-bottom: 100px;
+}
+#cards_landscape_wrap-2 a{
+  text-decoration: none;
+  outline: none;
+}
+#cards_landscape_wrap-2 .card-flyer {
+  border-radius: 5px;
+}
+#cards_landscape_wrap-2 .card-flyer .image-box{
+  background: #ffffff;
+  overflow: hidden;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+  border-radius: 5px;
+}
+#cards_landscape_wrap-2 .card-flyer .image-box img{
+  -webkit-transition:all .9s ease; 
+  -moz-transition:all .9s ease; 
+  -o-transition:all .9s ease;
+  -ms-transition:all .9s ease; 
+  width: 100%;
+  height: 200px;
+}
+#cards_landscape_wrap-2 .card-flyer:hover .image-box img{
+  opacity: 0.7;
+  -webkit-transform:scale(1.15);
+  -moz-transform:scale(1.15);
+  -ms-transform:scale(1.15);
+  -o-transform:scale(1.15);
+  transform:scale(1.15);
+}
+#cards_landscape_wrap-2 .card-flyer .text-box{
+  text-align: center;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container{
+  padding: 30px 18px;
+}
+#cards_landscape_wrap-2 .card-flyer{
+  background: #FFFFFF;
+  margin-top: 50px;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+}
+#cards_landscape_wrap-2 .card-flyer:hover{
+  background: #fff;
+  box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  margin-top: 50px;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box p{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px; 
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box h6{
+  margin-top: 0px;
+  margin-bottom: 4px; 
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Roboto Black', sans-serif;
+  letter-spacing: 1px;
+  color: #00acc1;
+}
+/* end user */
+
+/* Posts */
+
+
+/* end post */
+  
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  color:  rgb(187, 150, 28);
+  padding: 1rem;
+  background:#e1dfdf;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+  #heading {
+    background-color: rgb(187, 150, 28);
+    text-align: center;
+  }
+  .box img{
+    width: 10rem;
+    border-radius: 3rem;
+    margin:   auto 30%;
+    background-color: white;
+  }
+
+  /*--------------------------------contact me--------------------------------*/
+  
+  
+.contact-me h1{
+  margin-top: 10px;
+background-color:#242322;
+  font-size:3.0rem;
+  border-radius: 3rem;
+  text-align: center;
+  padding: 2rem;
+  font-weight: bold;
+}
+
+.form h2{
+  font-size: 2.0rem;
+  font-weight: bold;
+  box-shadow:0ex 0px 0px;
+  text-align: center;
+  /* color: #242322; */
+  /* color: white; */
+  color:rgb(187, 150, 28);
+}
+.form{
+  background-color: #d9ad7a;
+  width: 24rem;
+  margin: 20px auto 100px auto;
+  padding : 10px;
+  border-radius: 1.5rem;
+  
+  box-shadow: 25px 25px 14px rgba(227, 218, 178, 0.721);
+
+}
+.form input[type="text"], .textarea{
+  padding: 20px;
+font-family: 'Tangerine', serif;
+width: 20rem;
+margin:1rem;
+border: none;
+background-color: rgba(228, 218, 178, 0.721);
+border-radius: 1rem;
+display: block;
+
+}
+.form input[type = "button"]{
+
+  padding: 10px 30px 10px;
+  color:rgb(225, 218, 218);
+  background-color: #33d26e;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  margin-left: 8rem;
+  /* position: relative; */
+  /* left: 5rem; */
+
+}
+.form-logo{
+  width: 20px;
+  /* position: relative; */
+  /* right: 4rem; */
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
